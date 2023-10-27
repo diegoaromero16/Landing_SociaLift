@@ -34,7 +34,6 @@ nav {
 }
 
 #Bienvenida {
-    background-color: black;
     color: white;
 }
 
@@ -233,7 +232,42 @@ nav {
     font-size: 32px;
     margin-bottom: 3rem;
 }
-.contact-division{
-    border: 3px solid black;
-    padding: 5rem;
+input[type='text']{
+    box-sizing:border-box;
+    height:40px;
+    border:none;
+    outline:0;
+    border-bottom:1px solid #ccc;
+    font-size:15px;
+    width: 100%;
+}
+
+/* Estilo del contenedor de información de contacto */
+.contact-info {
+    color: #fff;
+    text-align: start;
+    border-radius: 5px;
+}
+
+/* Estilo de las etiquetas y valores de información de contacto */
+.info-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.info-value {
+    font-style: italic;
+}
+#contact-datos{
+    text-align: center;
+    line-height: 1.1;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+#footer-text{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Dancing Script', ;
+    font-size: medium;
+    font-weight: 700;
 }
